@@ -1,16 +1,11 @@
 <template>
-<div>
-  <input type="name">
-  <input type="password">
-  <input type="email">
-  <input type="login">
-  <button type="submit">Отправить</button>
-</div>
-
+  <h2>Дочерний компонент!</h2>
 </template>
 
 <script>
+export default {
 
+}
 </script>
 
 <style scoped>
