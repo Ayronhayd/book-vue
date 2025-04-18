@@ -1,5 +1,21 @@
 <template>
   <headerNew />
+
+
+  <headerNew />
+
+
+
+  <headerNew />
+
+
+
+  <h1>Основной</h1>
+
+  <p>Основной  <span>01</span></p>
+
+
+
 </template>
 
 <script setup>
