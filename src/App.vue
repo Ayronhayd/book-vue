@@ -1,27 +1,15 @@
 <template>
-  <headerNew />
-
-
-  <headerNew />
-
-
+  <h1>Приложение для управления задачами</h1>
 
   <headerNew />
-
-
-
-  <h1>Основной</h1>
-
-  <p>Основной  <span>01</span></p>
-
-
-
 </template>
 
 <script setup>
 import headerNew from './components/headerNew.vue'
-
-
 </script>
 
-<style scoped></style>
+<style scoped>
+h1 {
+  text-align: center;
+}
+</style>
