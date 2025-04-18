@@ -45,8 +45,13 @@ function removeTodo(todo) {
   </button>
 </template>
 
-<style>
+<style scoped>
 .done {
   text-decoration: line-through;
+  color: green;
+}
+
+span {
+  color: red;
 }
 </style>
