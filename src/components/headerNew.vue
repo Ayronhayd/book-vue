@@ -30,14 +30,14 @@ function removeTodo(todo) {
 
 <template>
   <form @submit.prevent="addTodo">
-    <input v-model="newTodo" required placeholder="new todo">
+    <input v-model="newTodo" required placeholder="новая задача">
     <button>Добавить задачу</button>
   </form>
   <ul>
     <li v-for="todo in filteredTodos" :key="todo.id">
       <input type="checkbox" v-model="todo.done">
       <span :class="{ done: todo.done }">{{ todo.text }}</span>
-      <button @click="removeTodo(todo)">X</button>
+      <button @click="removeTodo(todo)">удалить</button>
     </li>
   </ul>
   <button @click="hideCompleted = !hideCompleted">
