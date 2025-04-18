@@ -1,11 +1,11 @@
 <template>
   <h1>Приложение для управления задачами</h1>
 
-  <headerNew />
+
 </template>
 
 <script setup>
-import headerNew from './components/headerNew.vue'
+
 </script>
 
 <style scoped>
