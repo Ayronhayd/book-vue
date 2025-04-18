@@ -1,15 +1,11 @@
-<template>
-  <h2>Дочерний компонент!</h2>
-</template>
+<script setup>
+import { reactive, ref } from 'vue'
 
-<script>
-export default {
-
-}
+const counter = reactive({ count: 0 })
+const message = ref('Привет мир!')
 </script>
 
-<style scoped>
-/* Your component styles go here */
-</style>
-
-
+<template>
+  <h1>{{ message }}</h1>
+  <p>Количество: {{ counter.count }}</p>
+</template>

@@ -2,14 +2,10 @@
   <headerNew />
 </template>
 
-<script>
+<script setup>
 import headerNew from './components/headerNew.vue'
 
-export default {
-  components: {
-    headerNew,
-  },
-}
+
 </script>
 
 <style scoped></style>
