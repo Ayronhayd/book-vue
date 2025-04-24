@@ -1,15 +1,12 @@
-<template>
-  <h1>Приложение для управления задачами</h1>
-
-
-</template>
-
 <script setup>
-
+import { ref } from 'vue'
+import ChildComp from './ChildComp.vue'
+const greeting = ref('Привет от родителя')
+const hoop = ref('Привет от родителя в хуке')
 </script>
 
-<style scoped>
-h1 {
-  text-align: center;
-}
-</style>
+<template>
+  <ChildComp :msg="greeting" />
+
+  <ChildComp :msg="hoop" />
+</template>
