@@ -1,5 +1,5 @@
 <script setup>
-import { reactive, ref } from 'vue'
+import { reactive} from 'vue'
 
 const counter = reactive({ count: 0 })
 

@@ -6,7 +6,7 @@ const hoop = ref('Привет от родителя в хуке')
 </script>
 
 <template>
-  <ChildComp :msg="greeting" />
+  <ChildComp :msg="greeting" :message ="hoop" />
 
-  <ChildComp :msg="hoop" />
+
 </template>
