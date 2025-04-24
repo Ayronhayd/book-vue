@@ -1,20 +1,17 @@
 <script setup>
-import { reactive} from 'vue'
 
-const counter = reactive({ count: 0 })
+
+
 
 defineProps({
-  msg: String,
-  message: String
+  btn: String
 })
 
 </script>
 
 <template>
-  <h1>{{ message }}</h1>
-  <p>Количество: {{ counter.count }}</p>
+  <button>{{ btn || 'default' }}</button>
 
-  <h2>{{ msg || 'пока входные параметры не переданы' }}</h2>
 </template>
 
 

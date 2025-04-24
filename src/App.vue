@@ -1,12 +1,13 @@
 <script setup>
-import { ref } from 'vue'
+
 import ChildComp from './ChildComp.vue'
-const greeting = ref('Привет от родителя')
-const hoop = ref('Привет от родителя в хуке')
+
+const bt = 'test'
+
 </script>
 
 <template>
-  <ChildComp :msg="greeting" :message ="hoop" />
+  <ChildComp  :btn="bt" />
 
 
 </template>
